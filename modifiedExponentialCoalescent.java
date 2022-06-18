@@ -25,10 +25,12 @@ public class modifiedExponentialCoalescent extends Coalescent {
 	@Override
 	public double calculateLogLikelihood(IntervalList intervals, PopulationFunction popSizeFunction, double threshold) {
 			ExponentialGrowth eg = (ExponentialGrowth) popSizeFunction;
-			double logL = 0;
 			
+			// to help understand what is happening when setting a breakpoint
 			double realPopSizeOnJan25 = eg.getPopSize(0)/serialInterval;
 			double ascertainedCasesOnJan25=realPopSizeOnJan25*0.15;
+		
+			double logL = 0;
 			
 			for (int j = 0; j < onsetCurve.length; j++) {
 				int day = j+8;
