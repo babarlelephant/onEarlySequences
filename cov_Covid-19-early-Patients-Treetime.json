@@ -1,0 +1,1090 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      }
+    ],
+    "filters": [
+      "patientID",
+      "onset_date",
+      "admission_date",
+      "num_date",
+      "accession",
+      "age-sex-from-gisaid",
+      "submission_date",
+      "originating_lab",
+      "submitting_lab",
+      "authors"
+    ],
+    "genome_annotations": {
+      "E": {
+        "end": 26472,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 26245,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "M": {
+        "end": 27191,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 26523,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "N": {
+        "end": 29533,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 28274,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF10": {
+        "end": 29674,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 29558,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF14": {
+        "end": 28955,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 28734,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF1a": {
+        "end": 13468,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 266,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF1b": {
+        "end": 21555,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 13468,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF3a": {
+        "end": 26220,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 25393,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF6": {
+        "end": 27387,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 27202,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF7a": {
+        "end": 27759,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 27394,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF7b": {
+        "end": 27887,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 27756,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF8": {
+        "end": 28259,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 27894,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF9b": {
+        "end": 28577,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 28284,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "S": {
+        "end": 25384,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 21563,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 29903,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "maintainers": [
+      {
+        "name": "babarlelephant",
+        "url": "https://twitter.com/babarlelephant"
+      }
+    ],
+    "panels": [
+      "tree",
+      "entropy"
+    ],
+    "title": "Early SARS-CoV-2 sequences",
+    "updated": "2022-06-13"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "name": "recombinantBatVirus",
+        "node_attrs": {
+          "div": 0.006815625499463297,
+          "num_date": {
+            "confidence": [
+              2019.0013698630137,
+              2019.0013698630137
+            ],
+            "value": 2019.0013698630137
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "M: -3D, D4S; N: P37S, Q267A; ORF14: L29P, A32V, G56E; ORF1a: A38V, D93E, T280I, P376S, T859A, X1000T, X1001T, X1004T, M1393V, A1629V, N1733S, L1779F, Q1795K, I1822T, T2033A, I2061V, D2082N, K2184R, T2405N, V3143A, T3443N, V3606L; ORF1b: D189N, S2309F, L2314F; ORF3a: L10I, S28F, A259V; ORF7a: I104V; ORF8: L10I, A26T; ORF9b: L39P; S: S32F, L50S, I76T, P218Q, T346R, T372A, V402I, H498Q, N519H, X680S, -681P, -682R, -683R, X684A, X1274*"
+          },
+          "mutations": {
+            "M": [
+              "-3D",
+              "D4S"
+            ],
+            "N": [
+              "P37S",
+              "Q267A"
+            ],
+            "ORF14": [
+              "L29P",
+              "A32V",
+              "G56E"
+            ],
+            "ORF1a": [
+              "A38V",
+              "D93E",
+              "T280I",
+              "P376S",
+              "T859A",
+              "X1000T",
+              "X1001T",
+              "X1004T",
+              "M1393V",
+              "A1629V",
+              "N1733S",
+              "L1779F",
+              "Q1795K",
+              "I1822T",
+              "T2033A",
+              "I2061V",
+              "D2082N",
+              "K2184R",
+              "T2405N",
+              "V3143A",
+              "T3443N",
+              "V3606L"
+            ],
+            "ORF1b": [
+              "D189N",
+              "S2309F",
+              "L2314F"
+            ],
+            "ORF3a": [
+              "L10I",
+              "S28F",
+              "A259V"
+            ],
+            "ORF7a": [
+              "I104V"
+            ],
+            "ORF8": [
+              "L10I",
+              "A26T"
+            ],
+            "ORF9b": [
+              "L39P"
+            ],
+            "S": [
+              "S32F",
+              "L50S",
+              "I76T",
+              "P218Q",
+              "T346R",
+              "T372A",
+              "V402I",
+              "H498Q",
+              "N519H",
+              "X680S",
+              "-681P",
+              "-682R",
+              "-683R",
+              "X684A",
+              "X1274*"
+            ],
+            "nuc": [
+              "C378T",
+              "T379C",
+              "C511T",
+              "T544A",
+              "A805G",
+              "T883A",
+              "C1094T",
+              "C1104T",
+              "C1391T",
+              "T1420C",
+              "T1609C",
+              "C1948T",
+              "A2095G",
+              "C2107T",
+              "T2110C",
+              "C2158T",
+              "T2450C",
+              "T2485C",
+              "A2731G",
+              "T2758A",
+              "A2840G",
+              "C3049T",
+              "-3265T",
+              "-3266A",
+              "-3267C",
+              "-3275A",
+              "C3346T",
+              "A3433G",
+              "A3937G",
+              "T4117A",
+              "T4276C",
+              "A4442G",
+              "C4483T",
+              "T4540C",
+              "G4594A",
+              "C4732T",
+              "G4822A",
+              "T4891C",
+              "G5128A",
+              "T5144C",
+              "C5151T",
+              "T5296C",
+              "A5305G",
+              "G5317A",
+              "A5332G",
+              "C5338T",
+              "T5348C",
+              "C5359T",
+              "G5368A",
+              "A5374G",
+              "C5422T",
+              "C5449T",
+              "A5463G",
+              "T5512C",
+              "T5548C",
+              "C5600T",
+              "C5648A",
+              "A5665G",
+              "G5689A",
+              "T5730C",
+              "T5836A",
+              "G5839A",
+              "C5881T",
+              "T5944C",
+              "C6025T",
+              "T6031C",
+              "C6067T",
+              "C6142T",
+              "T6196C",
+              "C6262T",
+              "T6268C",
+              "C6283T",
+              "C6334T",
+              "A6362G",
+              "A6446G",
+              "G6509A",
+              "G6529A",
+              "T6664C",
+              "G6667T",
+              "T6706C",
+              "C6718T",
+              "C6736T",
+              "A6816G",
+              "T6883C",
+              "C6916T",
+              "T6941C",
+              "T7267C",
+              "C7276T",
+              "A7393G",
+              "T7420C",
+              "C7479A",
+              "T7528C",
+              "T7594C",
+              "C7633T",
+              "T7840C",
+              "A8017G",
+              "C8209T",
+              "T8266C",
+              "C8464T",
+              "G8689A",
+              "C8701T",
+              "C8731T",
+              "C8870T",
+              "C8953T",
+              "C9070T",
+              "A9097T",
+              "C9107T",
+              "C9412T",
+              "T9430C",
+              "C9631T",
+              "C9643T",
+              "T9693C",
+              "C10102T",
+              "T10138C",
+              "T10156C",
+              "T10228C",
+              "T10279C",
+              "T10369C",
+              "T10450C",
+              "C10593A",
+              "A10981G",
+              "T11020C",
+              "T11050C",
+              "C11056T",
+              "C11077T",
+              "G11081T",
+              "G11101A",
+              "C11183T",
+              "T11200C",
+              "C11251T",
+              "C11296T",
+              "T11455C",
+              "C11632T",
+              "T11674C",
+              "T11704C",
+              "T11747C",
+              "T11824C",
+              "T11941C",
+              "T12070G",
+              "C12181T",
+              "C12304T",
+              "A12439C",
+              "C12775T",
+              "T13255C",
+              "A13617G",
+              "C13845T",
+              "T13860C",
+              "G14032A",
+              "C14103T",
+              "T14178C",
+              "A14241G",
+              "T14424A",
+              "C14847A",
+              "C15003T",
+              "T15237C",
+              "C15258T",
+              "T15273C",
+              "C15297T",
+              "C15375T",
+              "T15540C",
+              "T15720C",
+              "C15946A",
+              "T15952C",
+              "T15960C",
+              "T16111C",
+              "T16134C",
+              "C16221G",
+              "C16335T",
+              "T16566A",
+              "C16635T",
+              "C16692T",
+              "A16768C",
+              "C16905T",
+              "T17119C",
+              "T17337A",
+              "T17373C",
+              "C17520T",
+              "G17619T",
+              "T17676C",
+              "C17769T",
+              "T17850C",
+              "G18009A",
+              "T18060C",
+              "C18219T",
+              "C18231T",
+              "T18252C",
+              "G18270A",
+              "C18276T",
+              "T18306C",
+              "C18327T",
+              "C18408T",
+              "T18486C",
+              "A18612G",
+              "T18657C",
+              "T18744C",
+              "T19029C",
+              "C19431T",
+              "T19524C",
+              "T19602C",
+              "C19695T",
+              "T19875C",
+              "C20229T",
+              "C20393T",
+              "C20407T",
+              "T20451C",
+              "C20722T",
+              "G20841A",
+              "T20898A",
+              "A20940G",
+              "T21057C",
+              "C21066T",
+              "T21090C",
+              "C21093T",
+              "A21102T",
+              "T21231A",
+              "T21234C",
+              "A21249G",
+              "A21255G",
+              "T21258A",
+              "C21291T",
+              "T21306C",
+              "G21312A",
+              "C21357T",
+              "C21363T",
+              "C21408T",
+              "A21432T",
+              "G21444A",
+              "T21595C",
+              "A21616T",
+              "T21622C",
+              "G21631A",
+              "C21649T",
+              "C21657T",
+              "T21711C",
+              "T21727C",
+              "T21789C",
+              "A21793G",
+              "T21859C",
+              "C22042T",
+              "C22165T",
+              "C22213T",
+              "C22215A",
+              "T22216G",
+              "A22225G",
+              "A22378T",
+              "C22391T",
+              "A22471G",
+              "T22486A",
+              "A22567G",
+              "C22599G",
+              "C22603T",
+              "A22609T",
+              "A22627G",
+              "T22636C",
+              "A22676G",
+              "T22678A",
+              "T22747C",
+              "G22766A",
+              "T22792C",
+              "A22801G",
+              "T22858C",
+              "T22987C",
+              "C22990T",
+              "T23044A",
+              "C23056A",
+              "T23059C",
+              "T23086C",
+              "G23089A",
+              "A23101T",
+              "G23110A",
+              "A23117C",
+              "C23158T",
+              "T23191C",
+              "T23203A",
+              "A23221T",
+              "T23260C",
+              "C23374T",
+              "C23434T",
+              "C23443T",
+              "C23470T",
+              "G23539A",
+              "T23557C",
+              "A23569T",
+              "C23578T",
+              "A23593G",
+              "-23601C",
+              "-23602T",
+              "-23603C",
+              "-23604C",
+              "-23605T",
+              "-23606C",
+              "-23607G",
+              "-23608G",
+              "-23609C",
+              "-23610G",
+              "-23611G",
+              "-23612G",
+              "C23626T",
+              "T23638C",
+              "T23707C",
+              "T23746A",
+              "T23758C",
+              "G23767A",
+              "G23806A",
+              "C23815T",
+              "C23842T",
+              "C23849T",
+              "T23854C",
+              "A23896C",
+              "T23911A",
+              "G23932A",
+              "C23962T",
+              "G24019A",
+              "T24023C",
+              "T24049A",
+              "T24106C",
+              "T24109C",
+              "T24130C",
+              "C24143T",
+              "A24193G",
+              "T24382C",
+              "T24415G",
+              "G24490T",
+              "C24596T",
+              "A24697G",
+              "T24844C",
+              "T24904C",
+              "C24928G",
+              "A24991T",
+              "C24995T",
+              "T24997A",
+              "T25000C",
+              "A25033G",
+              "C25093A",
+              "T25096C",
+              "A25135G",
+              "C25139T",
+              "C25285T",
+              "T25413C",
+              "C25420A",
+              "A25440G",
+              "T25452C",
+              "C25475T",
+              "T25614C",
+              "C25645T",
+              "C25648T",
+              "C25719T",
+              "C25827T",
+              "T25854C",
+              "T26022C",
+              "C26052T",
+              "C26168T",
+              "C26331T",
+              "-26529G",
+              "-26530A",
+              "-26531T",
+              "G26532T",
+              "A26533C",
+              "A26597T",
+              "C26663T",
+              "C26691T",
+              "T26693A",
+              "C26714T",
+              "T26753C",
+              "G26825A",
+              "T26885C",
+              "T26894C",
+              "G26927A",
+              "C27134T",
+              "C27267T",
+              "C27285T",
+              "T27429C",
+              "A27687T",
+              "C27702T",
+              "A27703G",
+              "C27921A",
+              "T27923C",
+              "A27929T",
+              "G27969A",
+              "C28382T",
+              "T28399C",
+              "T28657C",
+              "T28819C",
+              "C28828T",
+              "G28900A",
+              "A29029T",
+              "C29038T",
+              "A29044G",
+              "C29072G",
+              "A29073C",
+              "T29095C",
+              "C29128T",
+              "T29197C",
+              "T29209A",
+              "A29212G",
+              "C29341T",
+              "A29395G",
+              "T29518C"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "ORF1a: S1561P"
+              },
+              "mutations": {
+                "ORF1a": [
+                  "S1561P"
+                ],
+                "nuc": [
+                  "T4946C"
+                ]
+              }
+            },
+            "name": "62M",
+            "node_attrs": {
+              "div": 0.005988383506910173,
+              "num_date": {
+                "confidence": [
+                  2019.9465753424658,
+                  2019.9465753424658
+                ],
+                "value": 2019.9465753424658
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "name": "39M2",
+            "node_attrs": {
+              "div": 0.005954934019564332,
+              "num_date": {
+                "confidence": [
+                  2019.9876712328767,
+                  2019.9876712328767
+                ],
+                "value": 2019.9876712328767
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "ORF8: S84L"
+              },
+              "mutations": {
+                "ORF8": [
+                  "S84L"
+                ],
+                "nuc": [
+                  "T8782C",
+                  "C28144T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T13270C"
+                    ]
+                  }
+                },
+                "name": "51M",
+                "node_attrs": {
+                  "div": 0.006055285328992034,
+                  "num_date": {
+                    "confidence": [
+                      2019.9602739726026,
+                      2019.9602739726026
+                    ],
+                    "value": 2019.9602739726026
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "ORF1a: G2534V"
+                  },
+                  "mutations": {
+                    "ORF1a": [
+                      "G2534V"
+                    ],
+                    "nuc": [
+                      "G7866T"
+                    ]
+                  }
+                },
+                "name": "41M3",
+                "node_attrs": {
+                  "div": 0.0060552867618844375,
+                  "num_date": {
+                    "confidence": [
+                      2019.9767123287672,
+                      2019.9767123287672
+                    ],
+                    "value": 2019.9767123287672
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "S: T109X, *1274X"
+                  },
+                  "mutations": {
+                    "S": [
+                      "T109X",
+                      "*1274X"
+                    ],
+                    "nuc": [
+                      "C21888-"
+                    ]
+                  }
+                },
+                "name": "43M",
+                "node_attrs": {
+                  "div": 0.006021835841646193,
+                  "num_date": {
+                    "confidence": [
+                      2019.9794520547946,
+                      2019.9794520547946
+                    ],
+                    "value": 2019.9794520547946
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "ORF1a: L2235I, N3833K"
+                  },
+                  "mutations": {
+                    "ORF1a": [
+                      "L2235I",
+                      "N3833K"
+                    ],
+                    "nuc": [
+                      "C6968A",
+                      "T11764A"
+                    ]
+                  }
+                },
+                "name": "44M",
+                "node_attrs": {
+                  "div": 0.006088743581055928,
+                  "num_date": {
+                    "confidence": [
+                      2019.9602739726026,
+                      2019.9602739726026
+                    ],
+                    "value": 2019.9602739726026
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "ORF1a: I2244T"
+                  },
+                  "mutations": {
+                    "ORF1a": [
+                      "I2244T"
+                    ],
+                    "nuc": [
+                      "T6996C"
+                    ]
+                  }
+                },
+                "name": "41M1",
+                "node_attrs": {
+                  "div": 0.006055285328992034,
+                  "num_date": {
+                    "confidence": [
+                      2019.9575342465753,
+                      2019.9575342465753
+                    ],
+                    "value": 2019.9575342465753
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "61M",
+                "node_attrs": {
+                  "div": 0.006021835841646193,
+                  "num_date": {
+                    "confidence": [
+                      2019.968493150685,
+                      2019.968493150685
+                    ],
+                    "value": 2019.968493150685
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "56M",
+                "node_attrs": {
+                  "div": 0.006021835841646193,
+                  "num_date": {
+                    "confidence": [
+                      2019.968493150685,
+                      2019.968493150685
+                    ],
+                    "value": 2019.968493150685
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "41M2",
+                "node_attrs": {
+                  "div": 0.006021835841646193,
+                  "num_date": {
+                    "confidence": [
+                      2019.968493150685,
+                      2019.968493150685
+                    ],
+                    "value": 2019.968493150685
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "21F",
+                "node_attrs": {
+                  "div": 0.006021835841646193,
+                  "num_date": {
+                    "confidence": [
+                      2019.9849315068493,
+                      2019.9849315068493
+                    ],
+                    "value": 2019.9849315068493
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "52F",
+                "node_attrs": {
+                  "div": 0.006021835841646193,
+                  "num_date": {
+                    "confidence": [
+                      2019.9739726027397,
+                      2019.9739726027397
+                    ],
+                    "value": 2019.9739726027397
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "40M2",
+                "node_attrs": {
+                  "div": 0.006021835841646193,
+                  "num_date": {
+                    "confidence": [
+                      2019.9739726027397,
+                      2019.9739726027397
+                    ],
+                    "value": 2019.9739726027397
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "65M",
+                "node_attrs": {
+                  "div": 0.006021835841646193,
+                  "num_date": {
+                    "confidence": [
+                      2019.9493150684932,
+                      2019.9493150684932
+                    ],
+                    "value": 2019.9493150684932
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "39M1",
+                "node_attrs": {
+                  "div": 0.006021835841646193,
+                  "num_date": {
+                    "confidence": [
+                      2019.968493150685,
+                      2019.968493150685
+                    ],
+                    "value": 2019.968493150685
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "49F",
+                "node_attrs": {
+                  "div": 0.006021835841646193,
+                  "num_date": {
+                    "confidence": [
+                      2019.9767123287672,
+                      2019.9767123287672
+                    ],
+                    "value": 2019.9767123287672
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "53F",
+                "node_attrs": {
+                  "div": 0.006021835841646193,
+                  "num_date": {
+                    "confidence": [
+                      2019.982191780822,
+                      2019.982191780822
+                    ],
+                    "value": 2019.982191780822
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A24325G"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "32M",
+                    "node_attrs": {
+                      "div": 0.006055285776260886,
+                      "num_date": {
+                        "confidence": [
+                          2019.9657534246576,
+                          2019.9657534246576
+                        ],
+                        "value": 2019.9657534246576
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "40M1",
+                    "node_attrs": {
+                      "div": 0.006055285776260886,
+                      "num_date": {
+                        "confidence": [
+                          2019.9602739726026,
+                          2019.9602739726026
+                        ],
+                        "value": 2019.9602739726026
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000005",
+                "node_attrs": {
+                  "div": 0.006055285776260886,
+                  "num_date": {
+                    "confidence": [
+                      2019.9527618942182,
+                      2019.9602739726026
+                    ],
+                    "value": 2019.959011195923
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000002",
+            "node_attrs": {
+              "div": 0.006021835841646193,
+              "num_date": {
+                "confidence": [
+                  2019.948374824268,
+                  2019.9493150684932
+                ],
+                "value": 2019.9492642750195
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000000",
+        "node_attrs": {
+          "div": 0.005954934019564332,
+          "num_date": {
+            "confidence": [
+              2019.9030200189484,
+              2019.9319998813721
+            ],
+            "value": 2019.904987343387
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000001",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          2011.0207533800394,
+          2012.2668459470724
+        ],
+        "value": 2011.4269626030791
+      }
+    }
+  },
+  "version": "v2"
+}
