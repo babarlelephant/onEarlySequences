@@ -36,6 +36,8 @@ public class modifiedExponentialCoalescent extends Coalescent {
 				double t = -daysInPast/365.0; // in year
 				double effectivePopSize = eg.getPopSize(t);
 				double realPopulationSize = effectivePopSize/serialInterval;
+				
+				// too naive, not quite the best modeling
 				double normalizedDiff = (onsetCurve[j]/ascertainmentRate)/realPopulationSize-1;
 				logL -= normalizedDiff*normalizedDiff * weightParam; 
 			}
