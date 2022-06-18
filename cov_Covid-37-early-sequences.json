@@ -1,0 +1,2121 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      },
+      {
+        "key": "patientID",
+        "title": "Patient ID",
+        "type": "categorical"
+      },
+      {
+        "key": "Accession",
+        "title": "Accession",
+        "type": "categorical"
+      },
+      {
+        "key": "onset_date",
+        "title": "onset_date",
+        "type": "categorical"
+      },
+      {
+        "key": "admission_date",
+        "title": "admission_date",
+        "type": "categorical"
+      },
+      {
+        "key": "age-sex-from-gisaid",
+        "title": "age-sex-from-gisaid",
+        "type": "categorical"
+      },
+      {
+        "key": "originating_lab",
+        "title": "Originating lab",
+        "type": "categorical"
+      },
+      {
+        "key": "submitting_lab",
+        "title": "Submitting lab",
+        "type": "categorical"
+      },
+      {
+        "key": "author",
+        "title": "Authors",
+        "type": "categorical"
+      }
+    ],
+    "filters": [
+      "patientID",
+      "onset_date",
+      "admission_date",
+      "num_date",
+      "accession",
+      "age-sex-from-gisaid",
+      "submission_date",
+      "originating_lab",
+      "submitting_lab",
+      "authors"
+    ],
+    "genome_annotations": {
+      "E": {
+        "end": 26472,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 26245,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "M": {
+        "end": 27191,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 26523,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "N": {
+        "end": 29533,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 28274,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF10": {
+        "end": 29674,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 29558,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF14": {
+        "end": 28955,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 28734,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF1a": {
+        "end": 13468,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 266,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF1b": {
+        "end": 21555,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 13468,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF3a": {
+        "end": 26220,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 25393,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF6": {
+        "end": 27387,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 27202,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF7a": {
+        "end": 27759,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 27394,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF7b": {
+        "end": 27887,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 27756,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF8": {
+        "end": 28259,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 27894,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF9b": {
+        "end": 28577,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 28284,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "S": {
+        "end": 25384,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 21563,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 29903,
+        "seqid": "C:\\code\\nextstrain_ncov\\early_china_gisad\\reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "maintainers": [
+      {
+        "name": "babarlelephant",
+        "url": "https://twitter.com/babarlelephant"
+      }
+    ],
+    "panels": [
+      "tree",
+      "entropy"
+    ],
+    "title": "Early SARS-CoV-2 sequences",
+    "updated": "2022-06-13"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "ORF8: L84S"
+          },
+          "mutations": {
+            "ORF8": [
+              "L84S"
+            ],
+            "nuc": [
+              "C8782T",
+              "T28144C"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "name": "39M2|WH04",
+            "node_attrs": {
+              "Accession": {
+                "value": "EPI_ISL_406801"
+              },
+              "age-sex-from-gisaid": {
+                "value": "39M"
+              },
+              "author": {
+                "author": "Weijun Chen, Yuhai Bi, Weifeng Shi and Zhenhong Hu",
+                "value": "Weijun Chen, Yuhai Bi, Weifeng Shi and Zhenhong Hu"
+              },
+              "div": 6.688663350892502e-05,
+              "num_date": {
+                "value": 2020.0122950819673
+              },
+              "onset_date": {
+                "value": "2019-12-27"
+              },
+              "originating_lab": {
+                "value": "General Hospital of Central Theater Command of People's Liberation Army of China"
+              },
+              "patientID": {
+                "value": "39M2"
+              },
+              "submission_date": {
+                "value": "2020-01-30"
+              },
+              "submitting_lab": {
+                "value": "BGI & Institute of Microbiology, Chinese Academy of Sciences & Shandong First Medical University & Shandong Academy of Medical Sciences & General Hospital of Central Theater Command of People's Liberation Army of China"
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "ORF1a: S1561P"
+              },
+              "mutations": {
+                "ORF1a": [
+                  "S1561P"
+                ],
+                "nuc": [
+                  "T4946C"
+                ]
+              }
+            },
+            "name": "62M|IME-WH01",
+            "node_attrs": {
+              "Accession": {
+                "value": "EPI_ISL_529213"
+              },
+              "admission_date": {
+                "value": "2019-12-27"
+              },
+              "age-sex-from-gisaid": {
+                "value": "62M"
+              },
+              "author": {
+                "author": "Fan, Hang; Qin, E.; Wu, Y.; Guo, Y.; Zhang, X.; Yong, Y.; Hou, J.; Xu, Z.; Mu, J.; Teng, Yue; Mi, Z.; Yang, R.; Song, Yajun.; Li, B.; Cui, Y.",
+                "value": "Fan, Hang; Qin, E.; Wu, Y.; Guo, Y.; Zhang, X.; Yong, Y.; Hou, J.; Xu, Z.; Mu, J.; Teng, Yue; Mi, Z.; Yang, R.; Song, Yajun.; Li, B.; Cui, Y."
+              },
+              "div": 0.00010056531954770794,
+              "num_date": {
+                "value": 2019.995890410959
+              },
+              "onset_date": {
+                "value": "2019-12-12"
+              },
+              "originating_lab": {
+                "value": "Beijing Institute of Microbiology and Epidemiology"
+              },
+              "patientID": {
+                "value": "62M"
+              },
+              "submission_date": {
+                "value": "2020-04-06"
+              },
+              "submitting_lab": {
+                "value": "Beijing Institute of Microbiology and Epidemiology"
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000017",
+        "node_attrs": {
+          "div": 6.688663350892446e-05,
+          "num_date": {
+            "value": 2019.9928663927717
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "ORF1a: L2235I, N3833K"
+              },
+              "mutations": {
+                "ORF1a": [
+                  "L2235I",
+                  "N3833K"
+                ],
+                "nuc": [
+                  "C6968A",
+                  "T11764A"
+                ]
+              }
+            },
+            "name": "44M|WH01",
+            "node_attrs": {
+              "Accession": {
+                "value": "EPI_ISL_406798"
+              },
+              "admission_date": {
+                "value": "2019-12-24"
+              },
+              "age-sex-from-gisaid": {
+                "value": "44M"
+              },
+              "author": {
+                "author": "Weijun Chen, Yuhai Bi, Weifeng Shi and Zhenhong Hu",
+                "value": "Weijun Chen, Yuhai Bi, Weifeng Shi and Zhenhong Hu"
+              },
+              "div": 6.736221130948813e-05,
+              "num_date": {
+                "value": 2019.9849315068493
+              },
+              "onset_date": {
+                "value": "2019-12-17"
+              },
+              "originating_lab": {
+                "value": "General Hospital of Central Theater Command of People's Liberation Army of China"
+              },
+              "patientID": {
+                "value": "44M"
+              },
+              "submission_date": {
+                "value": "2020-01-30"
+              },
+              "submitting_lab": {
+                "value": "BGI & Institute of Microbiology, Chinese Academy of Sciences & Shandong First Medical University & Shandong Academy of Medical Sciences & General Hospital of Central Theater Command of People's Liberation Army of China"
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T13270C"
+                ]
+              }
+            },
+            "name": "51M|Beijing-01",
+            "node_attrs": {
+              "Accession": {
+                "value": "EPI_ISL_514752"
+              },
+              "admission_date": {
+                "value": "2019-12-27"
+              },
+              "author": {
+                "author": "Li, P.",
+                "value": "Li, P."
+              },
+              "div": 3.367868603878405e-05,
+              "num_date": {
+                "value": 2020.0068306010928
+              },
+              "onset_date": {
+                "value": "2019-12-17"
+              },
+              "originating_lab": {
+                "value": "Infectious Disease Control Center, Center for Disease Control and Prevention of PLA"
+              },
+              "patientID": {
+                "value": "51M"
+              },
+              "submission_date": {
+                "value": "2020-02-09"
+              },
+              "submitting_lab": {
+                "value": "Infectious Disease Control Center, Center for Disease Control and Prevention of PLA"
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "S: F32I"
+              },
+              "mutations": {
+                "S": [
+                  "F32I"
+                ],
+                "nuc": [
+                  "T21656A"
+                ]
+              }
+            },
+            "name": "49F|HBCDC-HB-01/2019",
+            "node_attrs": {
+              "Accession": {
+                "value": "EPI_ISL_402132"
+              },
+              "admission_date": {
+                "value": "2019-12-27"
+              },
+              "age-sex-from-gisaid": {
+                "value": "49F"
+              },
+              "author": {
+                "author": "Bin Fang, Xiang Li, Xiao Yu, Linlin Liu, Bo Yang, Faxian Zhan, Guojun Ye, Xixiang Huo, Junqiang Xu, Bo Yu, Kun Cai, Jing Li, Yongzhong Jiang.",
+                "value": "Bin Fang, Xiang Li, Xiao Yu, Linlin Liu, Bo Yang, Faxian Zhan, Guojun Ye, Xixiang Huo, Junqiang Xu, Bo Yu, Kun Cai, Jing Li, Yongzhong Jiang."
+              },
+              "div": 3.367946474245616e-05,
+              "num_date": {
+                "value": 2019.995890410959
+              },
+              "onset_date": {
+                "value": "2019-12-23"
+              },
+              "originating_lab": {
+                "value": "Wuhan Jinyintan Hospital"
+              },
+              "patientID": {
+                "value": "49F"
+              },
+              "submission_date": {
+                "value": "2020-01-19"
+              },
+              "submitting_lab": {
+                "value": "Hubei Provincial Center for Disease Control and Prevention"
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "ORF7a: P34S"
+              },
+              "mutations": {
+                "ORF7a": [
+                  "P34S"
+                ],
+                "nuc": [
+                  "C27493T",
+                  "C28253T"
+                ]
+              }
+            },
+            "name": "61M|IVDC-HB-04",
+            "node_attrs": {
+              "Accession": {
+                "value": "EPI_ISL_402120"
+              },
+              "admission_date": {
+                "value": "2019-12-27  (died 2020-01-09)"
+              },
+              "age-sex-from-gisaid": {
+                "value": "61M"
+              },
+              "author": {
+                "author": "Wenjie Tan\uff0cXiang Zhao\uff0cWenling Wang\uff0cXuejun Ma\uff0cYongzhong Jiang\uff0cRoujian Lu\uff0cJi Wang\uff0cWeimin Zhou\uff0cPeihua Niu\uff0cPeipei Liu\uff0cFaxian Zhan\uff0cWeifeng Shi\uff0cBaoying Huang\uff0cJun Liu\uff0cLi Zhao\uff0cYao Meng\uff0cXiaozhou He\uff0cFei Ye\uff0cNa Zhu\uff0cYang Li\uff0cJing Chen\uff0cWenbo Xu\uff0cGeorge F. Gao\uff0cGuizhen Wu",
+                "value": "Wenjie Tan\uff0cXiang Zhao\uff0cWenling Wang\uff0cXuejun Ma\uff0cYongzhong Jiang\uff0cRoujian Lu\uff0cJi Wang\uff0cWeimin Zhou\uff0cPeihua Niu\uff0cPeipei Liu\uff0cFaxian Zhan\uff0cWeifeng Shi\uff0cBaoying Huang\uff0cJun Liu\uff0cLi Zhao\uff0cYao Meng\uff0cXiaozhou He\uff0cFei Ye\uff0cNa Zhu\uff0cYang Li\uff0cJing Chen\uff0cWenbo Xu\uff0cGeorge F. Gao\uff0cGuizhen Wu"
+              },
+              "div": 6.736000547759934e-05,
+              "num_date": {
+                "value": 2020.0013661202186
+              },
+              "onset_date": {
+                "value": "2019-12-20"
+              },
+              "originating_lab": {
+                "value": "National Institute for Viral Disease Control and Prevention, China CDC"
+              },
+              "patientID": {
+                "value": "61M"
+              },
+              "submission_date": {
+                "value": "2020-01-11"
+              },
+              "submitting_lab": {
+                "value": "National Institute for Viral Disease Control and Prevention, China CDC"
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "ORF1a: T3090I"
+              },
+              "mutations": {
+                "ORF1a": [
+                  "T3090I"
+                ],
+                "nuc": [
+                  "C9534T"
+                ]
+              }
+            },
+            "name": "56M|WIV07",
+            "node_attrs": {
+              "Accession": {
+                "value": "EPI_ISL_402130"
+              },
+              "admission_date": {
+                "value": "2019-12-30"
+              },
+              "age-sex-from-gisaid": {
+                "value": "56M"
+              },
+              "author": {
+                "author": "Peng Zhou, Xing-Lou Yang, Ding-Yu Zhang, Lei Zhang, Yan Zhu, Hao-Rui Si, Zhengli Shi",
+                "value": "Peng Zhou, Xing-Lou Yang, Ding-Yu Zhang, Lei Zhang, Yan Zhu, Hao-Rui Si, Zhengli Shi"
+              },
+              "div": 3.36791508304701e-05,
+              "num_date": {
+                "value": 2019.995890410959
+              },
+              "onset_date": {
+                "value": "2019-12-20"
+              },
+              "originating_lab": {
+                "value": "Wuhan Jinyintan Hospital"
+              },
+              "patientID": {
+                "value": "56M"
+              },
+              "submission_date": {
+                "value": "2020-01-18"
+              },
+              "submitting_lab": {
+                "value": "Wuhan Institute of Virology, Chinese Academy of Sciences"
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "ORF1a: I2244T"
+              },
+              "mutations": {
+                "ORF1a": [
+                  "I2244T"
+                ],
+                "nuc": [
+                  "T6996C"
+                ]
+              }
+            },
+            "name": "41M1|IPBCAMS-WH-03",
+            "node_attrs": {
+              "Accession": {
+                "value": "EPI_ISL_403930"
+              },
+              "admission_date": {
+                "value": "2019-12-22"
+              },
+              "age-sex-from-gisaid": {
+                "value": "41M"
+              },
+              "author": {
+                "author": "Lili Ren, Jianwei Wang, Qi Jin, Zichun Xiang, Zhiqiang Wu, Chao Wu, Yiwei Liu",
+                "value": "Lili Ren, Jianwei Wang, Qi Jin, Zichun Xiang, Zhiqiang Wu, Chao Wu, Yiwei Liu"
+              },
+              "div": 3.367868603878405e-05,
+              "num_date": {
+                "value": 2019.995890410959
+              },
+              "onset_date": {
+                "value": "2019-12-16"
+              },
+              "originating_lab": {
+                "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College"
+              },
+              "patientID": {
+                "value": "41M1"
+              },
+              "submission_date": {
+                "value": "2020-01-21"
+              },
+              "submitting_lab": {
+                "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College"
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "ORF1a: G2534V"
+              },
+              "mutations": {
+                "ORF1a": [
+                  "G2534V"
+                ],
+                "nuc": [
+                  "G7866T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "41M3|WH19053",
+                "node_attrs": {
+                  "Accession": {
+                    "value": "WH19053-SRR11059940"
+                  },
+                  "admission_date": {
+                    "value": "2019-12-29"
+                  },
+                  "age-sex-from-gisaid": {
+                    "value": "41M"
+                  },
+                  "author": {
+                    "author": "IPBCAMS/ChinaCDC/Shandong/BGI",
+                    "value": "IPBCAMS/ChinaCDC/Shandong/BGI"
+                  },
+                  "div": 3.3442958102415265e-05,
+                  "num_date": {
+                    "value": 2019.995890410959
+                  },
+                  "onset_date": {
+                    "value": "2019-12-23"
+                  },
+                  "patientID": {
+                    "value": "41M3"
+                  },
+                  "submission_date": {
+                    "value": "2020-01-28"
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "61M|IPBCAMS-WH-05",
+                "node_attrs": {
+                  "Accession": {
+                    "value": "EPI_ISL_403928"
+                  },
+                  "admission_date": {
+                    "value": "2019-12-27  (died 2020-01-09)"
+                  },
+                  "age-sex-from-gisaid": {
+                    "value": "61M"
+                  },
+                  "author": {
+                    "author": "Lili Ren, Jianwei Wang, Qi Jin, Zichun Xiang, Zhiqiang Wu, Chao Wu, Yiwei Liu",
+                    "value": "Lili Ren, Jianwei Wang, Qi Jin, Zichun Xiang, Zhiqiang Wu, Chao Wu, Yiwei Liu"
+                  },
+                  "div": 3.3442958102415265e-05,
+                  "num_date": {
+                    "value": 2020.0013661202186
+                  },
+                  "onset_date": {
+                    "value": "2019-12-20"
+                  },
+                  "originating_lab": {
+                    "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College"
+                  },
+                  "patientID": {
+                    "value": "61M"
+                  },
+                  "submission_date": {
+                    "value": "2020-01-21"
+                  },
+                  "submitting_lab": {
+                    "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College"
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000015",
+            "node_attrs": {
+              "div": 3.344295810241471e-05,
+              "num_date": {
+                "value": 2019.994623891484
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A24325G"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "ORF1b: D2617N"
+                  },
+                  "mutations": {
+                    "ORF1b": [
+                      "D2617N"
+                    ],
+                    "nuc": [
+                      "G21316A"
+                    ]
+                  }
+                },
+                "name": "32M|WIV02",
+                "node_attrs": {
+                  "Accession": {
+                    "value": "EPI_ISL_402127"
+                  },
+                  "admission_date": {
+                    "value": "2019-12-29"
+                  },
+                  "age-sex-from-gisaid": {
+                    "value": "32M"
+                  },
+                  "author": {
+                    "author": "Peng Zhou, Xing-Lou Yang, Ding-Yu Zhang, Lei Zhang, Yan Zhu, Hao-Rui Si, Zhengli Shi",
+                    "value": "Peng Zhou, Xing-Lou Yang, Ding-Yu Zhang, Lei Zhang, Yan Zhu, Hao-Rui Si, Zhengli Shi"
+                  },
+                  "div": 6.712174520284232e-05,
+                  "num_date": {
+                    "value": 2019.995890410959
+                  },
+                  "onset_date": {
+                    "value": "2019-12-19"
+                  },
+                  "originating_lab": {
+                    "value": "Wuhan Jinyintan Hospital"
+                  },
+                  "patientID": {
+                    "value": "32M"
+                  },
+                  "submission_date": {
+                    "value": "2020-01-18"
+                  },
+                  "submitting_lab": {
+                    "value": "Wuhan Institute of Virology, Chinese Academy of Sciences"
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "32M|IME-WH03",
+                        "node_attrs": {
+                          "Accession": {
+                            "value": "EPI_ISL_529215"
+                          },
+                          "admission_date": {
+                            "value": "2019-12-29"
+                          },
+                          "author": {
+                            "author": "Fan, Hang; Qin, E.; Wu, Y.; Guo, Y.; Zhang, X.; Yong, Y.; Hou, J.; Xu, Z.; Mu, J.; Teng, Yue; Mi, Z.; Yang, R.; Song, Yajun.; Li, B.; Cui, Y.",
+                            "value": "Fan, Hang; Qin, E.; Wu, Y.; Guo, Y.; Zhang, X.; Yong, Y.; Hou, J.; Xu, Z.; Mu, J.; Teng, Yue; Mi, Z.; Yang, R.; Song, Yajun.; Li, B.; Cui, Y."
+                          },
+                          "div": 3.344276149449303e-05,
+                          "num_date": {
+                            "value": 2019.995890410959
+                          },
+                          "onset_date": {
+                            "value": "2019-12-19"
+                          },
+                          "originating_lab": {
+                            "value": "Beijing Institute of Microbiology and Epidemiology"
+                          },
+                          "patientID": {
+                            "value": "32M"
+                          },
+                          "submission_date": {
+                            "value": "2020-04-06"
+                          },
+                          "submitting_lab": {
+                            "value": "Beijing Institute of Microbiology and Epidemiology"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "32M|HBCDC-HB-02/2019",
+                        "node_attrs": {
+                          "Accession": {
+                            "value": "EPI_ISL_412898"
+                          },
+                          "admission_date": {
+                            "value": "2019-12-29"
+                          },
+                          "age-sex-from-gisaid": {
+                            "value": "M"
+                          },
+                          "author": {
+                            "author": "Bin Fang, Xiang Li, Xiao Yu, Linlin Liu, Bo Yang, Faxian Zhan, Guojun Ye, Xixiang Huo, Junqiang Xu, Bo Yu, Kun Cai, Jing Li, Yongzhong Jiang.",
+                            "value": "Bin Fang, Xiang Li, Xiao Yu, Linlin Liu, Bo Yang, Faxian Zhan, Guojun Ye, Xixiang Huo, Junqiang Xu, Bo Yu, Kun Cai, Jing Li, Yongzhong Jiang."
+                          },
+                          "div": 3.344276149449303e-05,
+                          "num_date": {
+                            "value": 2019.995890410959
+                          },
+                          "onset_date": {
+                            "value": "2019-12-19"
+                          },
+                          "originating_lab": {
+                            "value": "Wuhan Jinyintan Hospital"
+                          },
+                          "patientID": {
+                            "value": "32M"
+                          },
+                          "submission_date": {
+                            "value": "2020-02-28"
+                          },
+                          "submitting_lab": {
+                            "value": "Hubei Provincial Center for Disease Control and Prevention"
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000006",
+                    "node_attrs": {
+                      "div": 3.344276149449247e-05,
+                      "num_date": {
+                        "value": 2019.992866366044
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "40M1|WH19003",
+                        "node_attrs": {
+                          "Accession": {
+                            "value": "WH19003-SRR11059945"
+                          },
+                          "admission_date": {
+                            "value": "2019-12-27"
+                          },
+                          "age-sex-from-gisaid": {
+                            "value": "40M"
+                          },
+                          "author": {
+                            "author": "IPBCAMS/ChinaCDC/Shandong/BGI",
+                            "value": "IPBCAMS/ChinaCDC/Shandong/BGI"
+                          },
+                          "div": 3.344276149449303e-05,
+                          "num_date": {
+                            "value": 2019.995890410959
+                          },
+                          "onset_date": {
+                            "value": "2019-12-17"
+                          },
+                          "patientID": {
+                            "value": "40M1"
+                          },
+                          "submission_date": {
+                            "value": "2020-01-28"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "32M|WH19008",
+                            "node_attrs": {
+                              "Accession": {
+                                "value": "NMDC60013002-06"
+                              },
+                              "admission_date": {
+                                "value": "2019-12-29"
+                              },
+                              "author": {
+                                "author": "IPBCAMS/ChinaCDC/Shandong/BGI",
+                                "value": "IPBCAMS/ChinaCDC/Shandong/BGI"
+                              },
+                              "div": 3.3442761494493604e-05,
+                              "num_date": {
+                                "value": 2019.995890410959
+                              },
+                              "onset_date": {
+                                "value": "2019-12-19"
+                              },
+                              "patientID": {
+                                "value": "32M"
+                              },
+                              "submission_date": {
+                                "value": "2020-01-28"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "32M|IVDC-HB-GX02",
+                            "node_attrs": {
+                              "Accession": {
+                                "value": "EPI_ISL_434534"
+                              },
+                              "admission_date": {
+                                "value": "2019-12-29"
+                              },
+                              "age-sex-from-gisaid": {
+                                "value": "32M"
+                              },
+                              "author": {
+                                "author": "Wenjie Tan, Roujian Lu, Wenling Wang, Peihua Niu, Huijuan Wang, Baoying Huang, Li Zhao, Fei Ye, Guizhen Wu",
+                                "value": "Wenjie Tan, Roujian Lu, Wenling Wang, Peihua Niu, Huijuan Wang, Baoying Huang, Li Zhao, Fei Ye, Guizhen Wu"
+                              },
+                              "div": 3.3442761494493604e-05,
+                              "num_date": {
+                                "value": 2019.995890410959
+                              },
+                              "onset_date": {
+                                "value": "2019-12-19"
+                              },
+                              "originating_lab": {
+                                "value": "National Institute for Viral Disease Control and Prevention, China CDC"
+                              },
+                              "patientID": {
+                                "value": "32M"
+                              },
+                              "submission_date": {
+                                "value": "2020-04-28"
+                              },
+                              "submitting_lab": {
+                                "value": "National Institute for Viral Disease Control and Prevention, China CDC,  Yunnan Provincial CDC"
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000008",
+                        "node_attrs": {
+                          "div": 3.344276149449305e-05,
+                          "num_date": {
+                            "value": 2019.9929704299036
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000007",
+                    "node_attrs": {
+                      "div": 3.344276149449247e-05,
+                      "num_date": {
+                        "value": 2019.9929704299036
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000005",
+                "node_attrs": {
+                  "div": 3.3442761494491896e-05,
+                  "num_date": {
+                    "value": 2019.992866366044
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000018",
+            "node_attrs": {
+              "div": 3.344276149449132e-05,
+              "num_date": {
+                "value": 2019.992866366044
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "65M|IPBCAMS-WH-01",
+                    "node_attrs": {
+                      "Accession": {
+                        "value": "EPI_ISL_402123"
+                      },
+                      "admission_date": {
+                        "value": "2019-12-18 (may have died on 2020-01-30)"
+                      },
+                      "age-sex-from-gisaid": {
+                        "value": "65M"
+                      },
+                      "author": {
+                        "author": "Lili Ren, Jianwei Wang, Qi Jin, Zichun Xiang, Zhiqiang Wu, Chao Wu, Yiwei Liu",
+                        "value": "Lili Ren, Jianwei Wang, Qi Jin, Zichun Xiang, Zhiqiang Wu, Chao Wu, Yiwei Liu"
+                      },
+                      "div": 2.2719029332551898e-18,
+                      "num_date": {
+                        "value": 2019.9794520547946
+                      },
+                      "onset_date": {
+                        "value": "2019-12-13"
+                      },
+                      "originating_lab": {
+                        "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College"
+                      },
+                      "patientID": {
+                        "value": "65M"
+                      },
+                      "submission_date": {
+                        "value": "2020-01-11"
+                      },
+                      "submitting_lab": {
+                        "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College"
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "49F|WH19001",
+                            "node_attrs": {
+                              "Accession": {
+                                "value": "NMDC60013002-08"
+                              },
+                              "admission_date": {
+                                "value": "2019-12-27"
+                              },
+                              "age-sex-from-gisaid": {
+                                "value": "49F"
+                              },
+                              "author": {
+                                "author": "IPBCAMS/ChinaCDC/Shandong/BGI",
+                                "value": "IPBCAMS/ChinaCDC/Shandong/BGI"
+                              },
+                              "div": 3.417024533415176e-18,
+                              "num_date": {
+                                "value": 2019.995890410959
+                              },
+                              "onset_date": {
+                                "value": "2019-12-23"
+                              },
+                              "patientID": {
+                                "value": "49F"
+                              },
+                              "submission_date": {
+                                "value": "2020-01-28"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "52F|IPBCAMS-WH-04",
+                            "node_attrs": {
+                              "Accession": {
+                                "value": "EPI_ISL_403929"
+                              },
+                              "admission_date": {
+                                "value": "2019-12-29"
+                              },
+                              "age-sex-from-gisaid": {
+                                "value": "52F"
+                              },
+                              "author": {
+                                "author": "Lili Ren, Jianwei Wang, Qi Jin, Zichun Xiang, Zhiqiang Wu, Chao Wu, Yiwei Liu",
+                                "value": "Lili Ren, Jianwei Wang, Qi Jin, Zichun Xiang, Zhiqiang Wu, Chao Wu, Yiwei Liu"
+                              },
+                              "div": 3.417024533415176e-18,
+                              "num_date": {
+                                "value": 2019.995890410959
+                              },
+                              "onset_date": {
+                                "value": "2019-12-22"
+                              },
+                              "originating_lab": {
+                                "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College"
+                              },
+                              "patientID": {
+                                "value": "52F"
+                              },
+                              "submission_date": {
+                                "value": "2020-01-21"
+                              },
+                              "submitting_lab": {
+                                "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College"
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000012",
+                        "node_attrs": {
+                          "div": 2.862804000399965e-18,
+                          "num_date": {
+                            "value": 2019.9928948128727
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "53F|WH19016",
+                                "node_attrs": {
+                                  "Accession": {
+                                    "value": "WH19016-SRR11059941"
+                                  },
+                                  "admission_date": {
+                                    "value": "2019-12-31"
+                                  },
+                                  "age-sex-from-gisaid": {
+                                    "value": "53F"
+                                  },
+                                  "author": {
+                                    "author": "IPBCAMS/ChinaCDC/Shandong/BGI",
+                                    "value": "IPBCAMS/ChinaCDC/Shandong/BGI"
+                                  },
+                                  "div": 3.4354869481021223e-18,
+                                  "num_date": {
+                                    "value": 2020.0013661202186
+                                  },
+                                  "onset_date": {
+                                    "value": "2019-12-25"
+                                  },
+                                  "patientID": {
+                                    "value": "53F"
+                                  },
+                                  "submission_date": {
+                                    "value": "2020-01-28"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "41M2|Wuhan-Hu-1",
+                                "node_attrs": {
+                                  "Accession": {
+                                    "value": "EPI_ISL_402125"
+                                  },
+                                  "admission_date": {
+                                    "value": "2019-12-26"
+                                  },
+                                  "age-sex-from-gisaid": {
+                                    "value": "41M"
+                                  },
+                                  "author": {
+                                    "author": "Zhang,Y.-Z., Wu,F., Chen,Y.-M., Pei,Y.-Y., Xu,L., Wang,W., Zhao,S., Yu,B., Hu,Y., Tao,Z.-W., Song,Z.-G., Tian,J.-H., Zhang,Y.-L., Liu,Y., Zheng,J.-J., Dai,F.-H., Wang,Q.-M., She,J.-L. and Zhu,T.-Y.",
+                                    "value": "Zhang,Y.-Z., Wu,F., Chen,Y.-M., Pei,Y.-Y., Xu,L., Wang,W., Zhao,S., Yu,B., Hu,Y., Tao,Z.-W., Song,Z.-G., Tian,J.-H., Zhang,Y.-L., Liu,Y., Zheng,J.-J., Dai,F.-H., Wang,Q.-M., She,J.-L. and Zhu,T.-Y."
+                                  },
+                                  "div": 3.989585333495169e-18,
+                                  "num_date": {
+                                    "value": 2019.9986301369863
+                                  },
+                                  "onset_date": {
+                                    "value": "2019-12-20"
+                                  },
+                                  "originating_lab": {
+                                    "value": "National Institute for Communicable Disease Control and Prevention (ICDC) Chinese Center for Disease Control and Prevention (China CDC)"
+                                  },
+                                  "patientID": {
+                                    "value": "41M2"
+                                  },
+                                  "submission_date": {
+                                    "value": "2020-01-12"
+                                  },
+                                  "submitting_lab": {
+                                    "value": "National Institute for Communicable Disease Control and Prevention (ICDC) Chinese Center for Disease Control and Prevention (China CDC)"
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000014",
+                            "node_attrs": {
+                              "div": 3.4353648004799582e-18,
+                              "num_date": {
+                                "value": 2019.9946259545554
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "21F|WHU02",
+                                    "node_attrs": {
+                                      "Accession": {
+                                        "value": "EPI_ISL_406717"
+                                      },
+                                      "admission_date": {
+                                        "value": "2019-12-28"
+                                      },
+                                      "age-sex-from-gisaid": {
+                                        "value": "21F"
+                                      },
+                                      "author": {
+                                        "author": "Chen,L., Liu,W., Zhang,Q., Xu,K., Ye,G., Wu,W., Sun,Z., Liu,F., Wu,K., Mei,Y., Zhang,W., Chen,Y., Li,Y., Shi,M., Lan,K. and Liu,Y.",
+                                        "value": "Chen,L., Liu,W., Zhang,Q., Xu,K., Ye,G., Wu,W., Sun,Z., Liu,F., Wu,K., Mei,Y., Zhang,W., Chen,Y., Li,Y., Shi,M., Lan,K. and Liu,Y."
+                                      },
+                                      "div": 4.562146133575162e-18,
+                                      "num_date": {
+                                        "value": 2020.0040983606557
+                                      },
+                                      "onset_date": {
+                                        "value": "2019-12-26"
+                                      },
+                                      "originating_lab": {
+                                        "value": "State Key Laboratory of Virology, Wuhan University"
+                                      },
+                                      "patientID": {
+                                        "value": "21F"
+                                      },
+                                      "submission_date": {
+                                        "value": "2020-01-23"
+                                      },
+                                      "submitting_lab": {
+                                        "value": "State Key Laboratory of Virology, Wuhan University"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "39M1|WHU01",
+                                    "node_attrs": {
+                                      "Accession": {
+                                        "value": "EPI_ISL_406716"
+                                      },
+                                      "admission_date": {
+                                        "value": "2019-12-25"
+                                      },
+                                      "age-sex-from-gisaid": {
+                                        "value": "39M"
+                                      },
+                                      "author": {
+                                        "author": "Chen,L., Liu,W., Zhang,Q., Xu,K., Ye,G., Wu,W., Sun,Z., Liu,F., Wu,K., Mei,Y., Zhang,W., Chen,Y., Li,Y., Shi,M., Lan,K. and Liu,Y.",
+                                        "value": "Chen,L., Liu,W., Zhang,Q., Xu,K., Ye,G., Wu,W., Sun,Z., Liu,F., Wu,K., Mei,Y., Zhang,W., Chen,Y., Li,Y., Shi,M., Lan,K. and Liu,Y."
+                                      },
+                                      "div": 4.562146133575162e-18,
+                                      "num_date": {
+                                        "value": 2020.0040983606557
+                                      },
+                                      "onset_date": {
+                                        "value": "2019-12-20"
+                                      },
+                                      "originating_lab": {
+                                        "value": "State Key Laboratory of Virology, Wuhan University"
+                                      },
+                                      "patientID": {
+                                        "value": "39M1"
+                                      },
+                                      "submission_date": {
+                                        "value": "2020-01-23"
+                                      },
+                                      "submitting_lab": {
+                                        "value": "State Key Laboratory of Virology, Wuhan University"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000019",
+                                "node_attrs": {
+                                  "div": 4.0079256005599514e-18,
+                                  "num_date": {
+                                    "value": 2019.994623891484
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "61M|WH19004",
+                                    "node_attrs": {
+                                      "Accession": {
+                                        "value": "NMDC60013002-09"
+                                      },
+                                      "admission_date": {
+                                        "value": "2019-12-27  (died 2020-01-09)"
+                                      },
+                                      "age-sex-from-gisaid": {
+                                        "value": "61M"
+                                      },
+                                      "author": {
+                                        "author": "IPBCAMS/ChinaCDC/Shandong/BGI",
+                                        "value": "IPBCAMS/ChinaCDC/Shandong/BGI"
+                                      },
+                                      "div": 4.562330214577037e-18,
+                                      "num_date": {
+                                        "value": 2020.0013661202186
+                                      },
+                                      "onset_date": {
+                                        "value": "2019-12-20"
+                                      },
+                                      "patientID": {
+                                        "value": "61M"
+                                      },
+                                      "submission_date": {
+                                        "value": "2020-01-28"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "21F|WH03",
+                                    "node_attrs": {
+                                      "Accession": {
+                                        "value": "EPI_ISL_406800"
+                                      },
+                                      "admission_date": {
+                                        "value": "2019-12-28"
+                                      },
+                                      "age-sex-from-gisaid": {
+                                        "value": "21F"
+                                      },
+                                      "author": {
+                                        "author": "Weijun Chen, Yuhai Bi, Weifeng Shi and Zhenhong Hu",
+                                        "value": "Weijun Chen, Yuhai Bi, Weifeng Shi and Zhenhong Hu"
+                                      },
+                                      "div": 4.562146133575162e-18,
+                                      "num_date": {
+                                        "value": 2020.0013661202186
+                                      },
+                                      "onset_date": {
+                                        "value": "2019-12-26"
+                                      },
+                                      "originating_lab": {
+                                        "value": "General Hospital of Central Theater Command of People's Liberation Army of China"
+                                      },
+                                      "patientID": {
+                                        "value": "21F"
+                                      },
+                                      "submission_date": {
+                                        "value": "2020-01-30"
+                                      },
+                                      "submitting_lab": {
+                                        "value": "BGI & Institute of Microbiology, Chinese Academy of Sciences & Shandong First Medical University & Shandong Academy of Medical Sciences & General Hospital of Central Theater Command of People's Liberation Army of China"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000020",
+                                "node_attrs": {
+                                  "div": 4.0079256005599514e-18,
+                                  "num_date": {
+                                    "value": 2019.994623891484
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000016",
+                            "node_attrs": {
+                              "div": 3.4353648004799582e-18,
+                              "num_date": {
+                                "value": 2019.994623891484
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000013",
+                        "node_attrs": {
+                          "div": 2.862804000399965e-18,
+                          "num_date": {
+                            "value": 2019.9945951930833
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000011",
+                    "node_attrs": {
+                      "div": 2.290243200319972e-18,
+                      "num_date": {
+                        "value": 2019.9928948128727
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000010",
+                "node_attrs": {
+                  "div": 1.717682400239979e-18,
+                  "num_date": {
+                    "value": 2019.9794520560447
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "40M2|IME-WH02",
+                            "node_attrs": {
+                              "Accession": {
+                                "value": "EPI_ISL_529214"
+                              },
+                              "admission_date": {
+                                "value": "2019-12-28"
+                              },
+                              "author": {
+                                "author": "Fan, Hang; Qin, E.; Wu, Y.; Guo, Y.; Zhang, X.; Yong, Y.; Hou, J.; Xu, Z.; Mu, J.; Teng, Yue; Mi, Z.; Yang, R.; Song, Yajun.; Li, B.; Cui, Y.",
+                                "value": "Fan, Hang; Qin, E.; Wu, Y.; Guo, Y.; Zhang, X.; Yong, Y.; Hou, J.; Xu, Z.; Mu, J.; Teng, Yue; Mi, Z.; Yang, R.; Song, Yajun.; Li, B.; Cui, Y."
+                              },
+                              "div": 3.417024533415176e-18,
+                              "num_date": {
+                                "value": 2019.995890410959
+                              },
+                              "onset_date": {
+                                "value": "2019-12-22"
+                              },
+                              "originating_lab": {
+                                "value": "Beijing Institute of Microbiology and Epidemiology"
+                              },
+                              "patientID": {
+                                "value": "40M2"
+                              },
+                              "submission_date": {
+                                "value": "2020-04-06"
+                              },
+                              "submitting_lab": {
+                                "value": "Beijing Institute of Microbiology and Epidemiology"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "49F|HBCDC-HB-03/2019",
+                            "node_attrs": {
+                              "Accession": {
+                                "value": "EPI_ISL_412899"
+                              },
+                              "admission_date": {
+                                "value": "2019-12-27"
+                              },
+                              "age-sex-from-gisaid": {
+                                "value": "49F"
+                              },
+                              "author": {
+                                "author": "Bin Fang, Xiang Li, Xiao Yu, Linlin Liu, Bo Yang, Faxian Zhan, Guojun Ye, Xixiang Huo, Junqiang Xu, Bo Yu, Kun Cai, Jing Li, Yongzhong Jiang.",
+                                "value": "Bin Fang, Xiang Li, Xiao Yu, Linlin Liu, Bo Yang, Faxian Zhan, Guojun Ye, Xixiang Huo, Junqiang Xu, Bo Yu, Kun Cai, Jing Li, Yongzhong Jiang."
+                              },
+                              "div": 3.417024533415176e-18,
+                              "num_date": {
+                                "value": 2019.995890410959
+                              },
+                              "onset_date": {
+                                "value": "2019-12-23"
+                              },
+                              "originating_lab": {
+                                "value": "Wuhan Jinyintan Hospital"
+                              },
+                              "patientID": {
+                                "value": "49F"
+                              },
+                              "submission_date": {
+                                "value": "2020-02-28"
+                              },
+                              "submitting_lab": {
+                                "value": "Hubei Provincial Center for Disease Control and Prevention"
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000023",
+                        "node_attrs": {
+                          "div": 2.862804000399965e-18,
+                          "num_date": {
+                            "value": 2019.9925192972166
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "56M|IME-WH04",
+                                "node_attrs": {
+                                  "Accession": {
+                                    "value": "EPI_ISL_529216"
+                                  },
+                                  "admission_date": {
+                                    "value": "2019-12-30"
+                                  },
+                                  "author": {
+                                    "author": "Fan, Hang; Qin, E.; Wu, Y.; Guo, Y.; Zhang, X.; Yong, Y.; Hou, J.; Xu, Z.; Mu, J.; Teng, Yue; Mi, Z.; Yang, R.; Song, Yajun.; Li, B.; Cui, Y.",
+                                    "value": "Fan, Hang; Qin, E.; Wu, Y.; Guo, Y.; Zhang, X.; Yong, Y.; Hou, J.; Xu, Z.; Mu, J.; Teng, Yue; Mi, Z.; Yang, R.; Song, Yajun.; Li, B.; Cui, Y."
+                                  },
+                                  "div": 3.989585333495169e-18,
+                                  "num_date": {
+                                    "value": 2019.995890410959
+                                  },
+                                  "onset_date": {
+                                    "value": "2019-12-20"
+                                  },
+                                  "originating_lab": {
+                                    "value": "Beijing Institute of Microbiology and Epidemiology"
+                                  },
+                                  "patientID": {
+                                    "value": "56M"
+                                  },
+                                  "submission_date": {
+                                    "value": "2020-04-06"
+                                  },
+                                  "submitting_lab": {
+                                    "value": "Beijing Institute of Microbiology and Epidemiology"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "49F|IVDC-HB-01",
+                                "node_attrs": {
+                                  "Accession": {
+                                    "value": "EPI_ISL_402119"
+                                  },
+                                  "admission_date": {
+                                    "value": "2019-12-27"
+                                  },
+                                  "age-sex-from-gisaid": {
+                                    "value": "49F"
+                                  },
+                                  "author": {
+                                    "author": "Wenjie Tan\uff0cXiang Zhao\uff0cWenling Wang\uff0cXuejun Ma\uff0cYongzhong Jiang\uff0cRoujian Lu, Ji Wang, Weimin Zhou\uff0cPeihua Niu\uff0cPeipei Liu\uff0cFaxian Zhan\uff0cWeifeng Shi\uff0cBaoying Huang\uff0cJun Liu\uff0cLi Zhao\uff0cYao Meng\uff0cXiaozhou He\uff0cFei Ye\uff0cNa Zhu\uff0cYang Li\uff0cJing Chen\uff0cWenbo Xu\uff0cGeorge F. Gao\uff0cGuizhen Wu",
+                                    "value": "Wenjie Tan\uff0cXiang Zhao\uff0cWenling Wang\uff0cXuejun Ma\uff0cYongzhong Jiang\uff0cRoujian Lu, Ji Wang, Weimin Zhou\uff0cPeihua Niu\uff0cPeipei Liu\uff0cFaxian Zhan\uff0cWeifeng Shi\uff0cBaoying Huang\uff0cJun Liu\uff0cLi Zhao\uff0cYao Meng\uff0cXiaozhou He\uff0cFei Ye\uff0cNa Zhu\uff0cYang Li\uff0cJing Chen\uff0cWenbo Xu\uff0cGeorge F. Gao\uff0cGuizhen Wu"
+                                  },
+                                  "div": 3.989585333495169e-18,
+                                  "num_date": {
+                                    "value": 2019.995890410959
+                                  },
+                                  "onset_date": {
+                                    "value": "2019-12-23"
+                                  },
+                                  "originating_lab": {
+                                    "value": "National Institute for Viral Disease Control and Prevention, China CDC"
+                                  },
+                                  "patientID": {
+                                    "value": "49F"
+                                  },
+                                  "submission_date": {
+                                    "value": "2020-01-10"
+                                  },
+                                  "submitting_lab": {
+                                    "value": "National Institute for Viral Disease Control and Prevention, China CDC"
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000025",
+                            "node_attrs": {
+                              "div": 3.4353648004799582e-18,
+                              "num_date": {
+                                "value": 2019.9925192972166
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "49F|WIV04",
+                                "node_attrs": {
+                                  "Accession": {
+                                    "value": "EPI_ISL_402124"
+                                  },
+                                  "admission_date": {
+                                    "value": "2019-12-27"
+                                  },
+                                  "age-sex-from-gisaid": {
+                                    "value": "49F"
+                                  },
+                                  "author": {
+                                    "author": "Peng Zhou, Xing-Lou Yang, Ding-Yu Zhang, Lei Zhang, Yan Zhu, Hao-Rui Si, Zhengli Shi",
+                                    "value": "Peng Zhou, Xing-Lou Yang, Ding-Yu Zhang, Lei Zhang, Yan Zhu, Hao-Rui Si, Zhengli Shi"
+                                  },
+                                  "div": 3.989585333495169e-18,
+                                  "num_date": {
+                                    "value": 2019.995890410959
+                                  },
+                                  "onset_date": {
+                                    "value": "2019-12-23"
+                                  },
+                                  "originating_lab": {
+                                    "value": "Wuhan Jinyintan Hospital"
+                                  },
+                                  "patientID": {
+                                    "value": "49F"
+                                  },
+                                  "submission_date": {
+                                    "value": "2020-01-11"
+                                  },
+                                  "submitting_lab": {
+                                    "value": "Wuhan Institute of Virology, Chinese Academy of Sciences"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "52F|IME-WH05",
+                                "node_attrs": {
+                                  "Accession": {
+                                    "value": "EPI_ISL_529217"
+                                  },
+                                  "admission_date": {
+                                    "value": "2019-12-29"
+                                  },
+                                  "author": {
+                                    "author": "Fan, Hang; Qin, E.; Wu, Y.; Guo, Y.; Zhang, X.; Yong, Y.; Hou, J.; Xu, Z.; Mu, J.; Teng, Yue; Mi, Z.; Yang, R.; Song, Yajun.; Li, B.; Cui, Y.",
+                                    "value": "Fan, Hang; Qin, E.; Wu, Y.; Guo, Y.; Zhang, X.; Yong, Y.; Hou, J.; Xu, Z.; Mu, J.; Teng, Yue; Mi, Z.; Yang, R.; Song, Yajun.; Li, B.; Cui, Y."
+                                  },
+                                  "div": 3.989585333495169e-18,
+                                  "num_date": {
+                                    "value": 2019.995890410959
+                                  },
+                                  "onset_date": {
+                                    "value": "2019-12-22"
+                                  },
+                                  "originating_lab": {
+                                    "value": "Beijing Institute of Microbiology and Epidemiology"
+                                  },
+                                  "patientID": {
+                                    "value": "52F"
+                                  },
+                                  "submission_date": {
+                                    "value": "2020-04-06"
+                                  },
+                                  "submitting_lab": {
+                                    "value": "Beijing Institute of Microbiology and Epidemiology"
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000026",
+                            "node_attrs": {
+                              "div": 3.4353648004799582e-18,
+                              "num_date": {
+                                "value": 2019.9925192972166
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000024",
+                        "node_attrs": {
+                          "div": 2.862804000399965e-18,
+                          "num_date": {
+                            "value": 2019.9925192972166
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000022",
+                    "node_attrs": {
+                      "div": 2.290243200319972e-18,
+                      "num_date": {
+                        "value": 2019.9925192972166
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "52F|WH19002",
+                            "node_attrs": {
+                              "Accession": {
+                                "value": "SRR11059946"
+                              },
+                              "admission_date": {
+                                "value": "2019-12-29"
+                              },
+                              "age-sex-from-gisaid": {
+                                "value": "52F"
+                              },
+                              "author": {
+                                "author": "IPBCAMS/ChinaCDC/Shandong/BGI",
+                                "value": "IPBCAMS/ChinaCDC/Shandong/BGI"
+                              },
+                              "div": 3.4168287361571324e-18,
+                              "num_date": {
+                                "value": 2019.995890410959
+                              },
+                              "onset_date": {
+                                "value": "2019-12-22"
+                              },
+                              "patientID": {
+                                "value": "52F"
+                              },
+                              "submission_date": {
+                                "value": "2020-01-28"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "S: T109X, *1274X"
+                              },
+                              "mutations": {
+                                "S": [
+                                  "T109X",
+                                  "*1274X"
+                                ],
+                                "nuc": [
+                                  "C21888-"
+                                ]
+                              }
+                            },
+                            "name": "43M|WH02",
+                            "node_attrs": {
+                              "Accession": {
+                                "value": "SAMC703647"
+                              },
+                              "age-sex-from-gisaid": {
+                                "value": "43M"
+                              },
+                              "author": {
+                                "author": "Weijun Chen, Yuhai Bi, Weifeng Shi and Zhenhong Hu",
+                                "value": "Weijun Chen, Yuhai Bi, Weifeng Shi and Zhenhong Hu"
+                              },
+                              "div": 3.417357668942346e-18,
+                              "num_date": {
+                                "value": 2019.9986301369863
+                              },
+                              "onset_date": {
+                                "value": "2019-12-24"
+                              },
+                              "originating_lab": {
+                                "value": "General Hospital of Central Theater Command of People's Liberation Army of China"
+                              },
+                              "patientID": {
+                                "value": "43M"
+                              },
+                              "submission_date": {
+                                "value": "2020-01-30"
+                              },
+                              "submitting_lab": {
+                                "value": "BGI & Institute of Microbiology, Chinese Academy of Sciences & Shandong First Medical University & Shandong Academy of Medical Sciences & General Hospital of Central Theater Command of People's Liberation Army of China"
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000028",
+                        "node_attrs": {
+                          "div": 2.862804000399965e-18,
+                          "num_date": {
+                            "value": 2019.9928769954088
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "49F|IPBCAMS-WH-02",
+                                "node_attrs": {
+                                  "Accession": {
+                                    "value": "EPI_ISL_403931"
+                                  },
+                                  "admission_date": {
+                                    "value": "2019-12-27"
+                                  },
+                                  "age-sex-from-gisaid": {
+                                    "value": "49F"
+                                  },
+                                  "author": {
+                                    "author": "Lili Ren, Jianwei Wang, Qi Jin, Zichun Xiang, Zhiqiang Wu, Chao Wu, Yiwei Liu",
+                                    "value": "Lili Ren, Jianwei Wang, Qi Jin, Zichun Xiang, Zhiqiang Wu, Chao Wu, Yiwei Liu"
+                                  },
+                                  "div": 3.989585333495169e-18,
+                                  "num_date": {
+                                    "value": 2019.995890410959
+                                  },
+                                  "onset_date": {
+                                    "value": "2019-12-23"
+                                  },
+                                  "originating_lab": {
+                                    "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College"
+                                  },
+                                  "patientID": {
+                                    "value": "49F"
+                                  },
+                                  "submission_date": {
+                                    "value": "2020-01-21"
+                                  },
+                                  "submitting_lab": {
+                                    "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "40M2|WIV06",
+                                "node_attrs": {
+                                  "Accession": {
+                                    "value": "EPI_ISL_402129"
+                                  },
+                                  "admission_date": {
+                                    "value": "2019-12-28"
+                                  },
+                                  "age-sex-from-gisaid": {
+                                    "value": "40M"
+                                  },
+                                  "author": {
+                                    "author": "Peng Zhou, Xing-Lou Yang, Ding-Yu Zhang, Lei Zhang, Yan Zhu, Hao-Rui Si, Zhengli Shi",
+                                    "value": "Peng Zhou, Xing-Lou Yang, Ding-Yu Zhang, Lei Zhang, Yan Zhu, Hao-Rui Si, Zhengli Shi"
+                                  },
+                                  "div": 3.989585333495169e-18,
+                                  "num_date": {
+                                    "value": 2019.995890410959
+                                  },
+                                  "onset_date": {
+                                    "value": "2019-12-22"
+                                  },
+                                  "originating_lab": {
+                                    "value": "Wuhan Jinyintan Hospital"
+                                  },
+                                  "patientID": {
+                                    "value": "40M2"
+                                  },
+                                  "submission_date": {
+                                    "value": "2020-01-18"
+                                  },
+                                  "submitting_lab": {
+                                    "value": "Wuhan Institute of Virology, Chinese Academy of Sciences"
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000030",
+                            "node_attrs": {
+                              "div": 3.4353648004799582e-18,
+                              "num_date": {
+                                "value": 2019.992535179764
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "52F|WIV05",
+                                "node_attrs": {
+                                  "Accession": {
+                                    "value": "EPI_ISL_402128"
+                                  },
+                                  "admission_date": {
+                                    "value": "2019-12-29"
+                                  },
+                                  "age-sex-from-gisaid": {
+                                    "value": "52F"
+                                  },
+                                  "author": {
+                                    "author": "Peng Zhou, Xing-Lou Yang, Ding-Yu Zhang, Lei Zhang, Yan Zhu, Hao-Rui Si, Zhengli Shi",
+                                    "value": "Peng Zhou, Xing-Lou Yang, Ding-Yu Zhang, Lei Zhang, Yan Zhu, Hao-Rui Si, Zhengli Shi"
+                                  },
+                                  "div": 3.989585333495169e-18,
+                                  "num_date": {
+                                    "value": 2019.995890410959
+                                  },
+                                  "onset_date": {
+                                    "value": "2019-12-22"
+                                  },
+                                  "originating_lab": {
+                                    "value": "Wuhan Jinyintan Hospital"
+                                  },
+                                  "patientID": {
+                                    "value": "52F"
+                                  },
+                                  "submission_date": {
+                                    "value": "2020-01-18"
+                                  },
+                                  "submitting_lab": {
+                                    "value": "Wuhan Institute of Virology, Chinese Academy of Sciences"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "32M|IVDC-HB-05",
+                                "node_attrs": {
+                                  "Accession": {
+                                    "value": "EPI_ISL_402121"
+                                  },
+                                  "admission_date": {
+                                    "value": "2019-12-29"
+                                  },
+                                  "age-sex-from-gisaid": {
+                                    "value": "32M"
+                                  },
+                                  "author": {
+                                    "author": "Wenjie Tan\uff0cXuejun Ma\uff0cXiang Zhao\uff0cWenling Wang\uff0cYongzhong Jiang\uff0cRoujian Lu\uff0cJi Wang\uff0cPeihua Niu, Weimin Zhou, Faxian Zhan\uff0cWeifeng Shi\uff0cBaoying Huang\uff0cJun Liu\uff0cLi Zhao\uff0cYao Meng\uff0cFei Ye\uff0cNa Zhu, Xiaozhou He\uff0cPeipei Liu, Yang Li\uff0cJing Chen\uff0cWenbo Xu\uff0cGeorge F. Gao\uff0cGuizhen Wu",
+                                    "value": "Wenjie Tan\uff0cXuejun Ma\uff0cXiang Zhao\uff0cWenling Wang\uff0cYongzhong Jiang\uff0cRoujian Lu\uff0cJi Wang\uff0cPeihua Niu, Weimin Zhou, Faxian Zhan\uff0cWeifeng Shi\uff0cBaoying Huang\uff0cJun Liu\uff0cLi Zhao\uff0cYao Meng\uff0cFei Ye\uff0cNa Zhu, Xiaozhou He\uff0cPeipei Liu, Yang Li\uff0cJing Chen\uff0cWenbo Xu\uff0cGeorge F. Gao\uff0cGuizhen Wu"
+                                  },
+                                  "div": 3.989585333495169e-18,
+                                  "num_date": {
+                                    "value": 2019.995890410959
+                                  },
+                                  "onset_date": {
+                                    "value": "2019-12-19"
+                                  },
+                                  "originating_lab": {
+                                    "value": "National Institute for Viral Disease Control and Prevention, China CDC"
+                                  },
+                                  "patientID": {
+                                    "value": "32M"
+                                  },
+                                  "submission_date": {
+                                    "value": "2020-01-10"
+                                  },
+                                  "submitting_lab": {
+                                    "value": "National Institute for Viral Disease Control and Prevention, China CDC"
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000031",
+                            "node_attrs": {
+                              "div": 3.4353648004799582e-18,
+                              "num_date": {
+                                "value": 2019.992535179764
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000029",
+                        "node_attrs": {
+                          "div": 2.862804000399965e-18,
+                          "num_date": {
+                            "value": 2019.992535179764
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000027",
+                    "node_attrs": {
+                      "div": 2.290243200319972e-18,
+                      "num_date": {
+                        "value": 2019.992535179764
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000021",
+                "node_attrs": {
+                  "div": 1.717682400239979e-18,
+                  "num_date": {
+                    "value": 2019.990239440342
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000009",
+            "node_attrs": {
+              "div": 1.145121600159986e-18,
+              "num_date": {
+                "value": 2019.9777058191867
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000000",
+        "node_attrs": {
+          "div": 5.72560800079993e-19,
+          "num_date": {
+            "value": 2019.9760143490473
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000001",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 2019.9364135378128
+      }
+    }
+  },
+  "version": "v2"
+}
