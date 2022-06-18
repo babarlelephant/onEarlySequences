@@ -17,7 +17,7 @@ public class modifiedExponentialCoalescent extends Coalescent {
 	 19 sequences
 	 int day0 = 27; // December 27
 	 */
-	/* 255 sequences */
+	/* 256 sequences */
 	int day0 = 32+25;  // January 25 (latest sequence in the dataset)
 	double ascertainmentRate = 0.15; // divide by 0.15 the number of cases in the epidemic curve
 	double weightParam = 0.1; // the variance of the Gaussians utilised for modeling the cases by onset observations given the modeled exponential curve.
