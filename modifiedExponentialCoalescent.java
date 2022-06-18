@@ -32,8 +32,8 @@ public class modifiedExponentialCoalescent extends Coalescent {
 			
 			for (int j = 0; j < onsetCurve.length; j++) {
 				int day = j+8;
-				int daysInPast = day-day0; // compared to day0 = Jan 25 
-				double t = -daysInPast/365.0; // in year
+				int daysInPast = day0-day; // compared to day0 = Jan 25 
+				double t = daysInPast/365.0; // in year
 				double effectivePopSize = eg.getPopSize(t);
 				double realPopulationSize = effectivePopSize/serialInterval;
 				
