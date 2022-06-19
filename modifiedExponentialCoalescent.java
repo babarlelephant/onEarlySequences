@@ -10,7 +10,7 @@ public class modifiedCoalescent extends Coalescent {
 	double ascertainmentRate = 0.15; // divide by 0.15 the number of cases in the epidemic curve
 	
 	// standard deviation of Bernouilli r.v. of parameter ascertainmentRate
-	double sigma = Math.sqrt(ascertainmentRate*(1-ascertainmentRate)*(1-ascertainmentRate)+ascertainmentRate*ascertainmentRate*(1-(1-ascertainmentRate)));
+	double sigma = Math.sqrt(ascertainmentRate*(1-ascertainmentRate)*(1-ascertainmentRate)+ascertainmentRate*ascertainmentRate*(1-ascertainmentRate));
 
 	@Override
 	public double calculateLogLikelihood(IntervalList intervals, PopulationFunction popSizeFunction, double threshold) {
