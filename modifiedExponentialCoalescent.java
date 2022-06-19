@@ -22,7 +22,7 @@ public class modifiedCoalescent extends Coalescent {
 			double effectivePopSize = eg.getPopSize(t);
 			double modeledPopulationSize = effectivePopSize/serialInterval;
 			double expectancyOfAscertainedPopulationSize = modeledPopulationSize*ascertainmentRate;
-			double normalizedDiff = Math.abs(onsetCurve[j] - expectancyOfAscertainedPopulationSize) / Math.sqrt(expectancyOfAscertainedPopulationSize) / ascertainmentRate;
+			double normalizedDiff = Math.abs(onsetCurve[j] - expectancyOfAscertainedPopulationSize) / Math.sqrt(expectancyOfAscertainedPopulationSize) / variance;
 			// normalizedDiff follows a standard normal 
 			logL -= normalizedDiff / Math.sqrt(2*Math.PI); // 1st order approximation 
 		}				
