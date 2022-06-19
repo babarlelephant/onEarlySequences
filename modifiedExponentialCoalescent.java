@@ -9,7 +9,8 @@ public class modifiedCoalescent extends Coalescent {
 	double serialInterval = 5/365.0; // 5 days
 	double ascertainmentRate = 0.15; // divide by 0.15 the number of cases in the epidemic curve
 	
-	double variance = ascertainmentRate*(1-ascertainmentRate)*(1-ascertainmentRate)+ascertainmentRate*ascertainmentRate*(1-(1-ascertainmentRate));
+	// standard deviation of Bernouilli r.v. of parameter ascertainmentRate
+	double sigma = Math.sqrt(ascertainmentRate*(1-ascertainmentRate)*(1-ascertainmentRate)+ascertainmentRate*ascertainmentRate*(1-(1-ascertainmentRate)));
 
 	@Override
 	public double calculateLogLikelihood(IntervalList intervals, PopulationFunction popSizeFunction, double threshold) {
@@ -22,8 +23,8 @@ public class modifiedCoalescent extends Coalescent {
 			double effectivePopSize = eg.getPopSize(t);
 			double modeledPopulationSize = effectivePopSize/serialInterval;
 			double expectancyOfAscertainedPopulationSize = modeledPopulationSize*ascertainmentRate;
-			double normalizedDiff = Math.abs(onsetCurve[j] - expectancyOfAscertainedPopulationSize) / Math.sqrt(expectancyOfAscertainedPopulationSize) / variance;
-			// normalizedDiff follows a standard normal 
+			double normalizedDiff = Math.abs(onsetCurve[j] - expectancyOfAscertainedPopulationSize) / Math.sqrt(expectancyOfAscertainedPopulationSize) / sigma;
+			// central limit theorem, normalizedDiff follows approximately a standard normal 
 			logL -= normalizedDiff * 2 / Math.sqrt(2*Math.PI); // 1st order approximation (more stable than a function computing erf, no -Infinity when normalizedDiff is large)
 		}				
 		return logL+super.calculateLogLikelihood(intervals,popSizeFunction,threshold);
