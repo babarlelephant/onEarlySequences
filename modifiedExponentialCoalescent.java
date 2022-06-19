@@ -23,7 +23,7 @@ public class modifiedCoalescent extends Coalescent {
 			double modeledPopulationSize = effectivePopSize/serialInterval;
 			double expectancyOfAscertainedPopulationSize = modeledPopulationSize*ascertainmentRate;
 			double normalizedDiff = Math.abs(onsetCurve[j] - expectancyOfAscertainedPopulationSize) / Math.sqrt(expectancyOfAscertainedPopulationSize) / ascertainmentRate;
-			logL -= normalizedDiff; // 1st order approximation
+			logL -= normalizedDiff / Math.sqrt(2*Math.PI); // 1st order approximation 
 		}				
 		return logL+super.calculateLogLikelihood(intervals,popSizeFunction,threshold);
 	}	
