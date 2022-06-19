@@ -8,6 +8,8 @@ public class modifiedCoalescent extends Coalescent {
 	
 	double serialInterval = 5/365.0; // 5 days
 	double ascertainmentRate = 0.15; // divide by 0.15 the number of cases in the epidemic curve
+	
+	double variance = ascertainmentRate*(1-ascertainmentRate)*(1-ascertainmentRate)+ascertainmentRate*ascertainmentRate*(1-(1-ascertainmentRate));
 
 	@Override
 	public double calculateLogLikelihood(IntervalList intervals, PopulationFunction popSizeFunction, double threshold) {
