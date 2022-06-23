@@ -8,8 +8,8 @@ public class modifiedCoalescent extends Coalescent {
 	double serialIntervalInDays = 5.0;
 	double serialIntervalInYear = serialIntervalInDays/365.0;
 
-	int day0 = 32+25;  // January 25 (latest sequence in the dataset)
-	double ascertainmentRate = 0.15; // divide by 0.15 the number of cases in the epidemic curve
+	int day0 = 31+25;  // January 25 (latest sequence in the dataset)
+	double ascertainmentRate = 0.15;
 	// standard deviation of Bernouilli random variable with parameter ascertainmentRate
 	double sigma = Math.sqrt(ascertainmentRate*(1-ascertainmentRate)*(1-ascertainmentRate)+ascertainmentRate*ascertainmentRate*(1-ascertainmentRate));
 
