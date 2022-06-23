@@ -17,7 +17,7 @@ public class modifiedCoalescent extends Coalescent {
 	public double calculateLogLikelihood(IntervalList intervals, PopulationFunction popSizeFunction, double threshold) {
 		ExponentialGrowth eg = (ExponentialGrowth) popSizeFunction;
 		double logL = 0;
-		for (int j = 0; j < 33; j++) { // consider the epidemic curve From Dec 8 to Jan 9
+		for (int j = 0; j < 33; j++) { // we consider the epidemic curve only From Dec 8 to Jan 9
 			int day = j+8;
 			int daysInPast = day-day0; // compared to day0 = Jan 25 
 			double t = -daysInPast/365.0; // in year
